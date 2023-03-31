@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    
+    background-color: #ffcb04;
+    width: 100%;
+    height: 120px;
+    padding: 14px;
+}
+
+.bosluk{
+    width: 3%;
+    height: 100%;
+}
+
+.kapsayici-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu-sag{
+    display: flex;
+   
+}
+
+.menu-sag a{
+    border: 1px solid black;
+    padding: 10px;
+    color:#ffcb04;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.language i {
+
+    color: black;
+
+}
+
+#uye-giris{
+    color: black;
+    background-color: transparent;
+    margin-left: 17px;
+}
+
+.language{
+    margin-left:8px;
+    display: flex;
+    align-items: center; 
+}
+
+select{
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    font-family: auto;
+}
+
+option{
+    color: black;
+    background-color: #ffcb04;
+}
+
+.alt-menu{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+ul {
+
+    display: flex;
+
+}
+
+.abonelik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color:#111 ;
+
+}
+
+
+input, button{
+    font-family:sans-serif;
+    padding: 8px;
+    font-weight: bolder;
+    color: black;
+    margin: 0px 15px 0px 15px;
+    height: 45px;
+    width: 306px;
+}
+
+button{
+    background-color: #ffcb04;
+    color: black;
+    cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.back-image{
+    width: 64%;
+    margin-top: 3%;
+}
+
+.back-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.programlar{
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+    margin: auto auto auto 19%;
+}
+
+.programlar p{
+    font-family: sans-serif;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.programlar div {
+    width: 20%;
+    margin: 4rem 1rem 0rem;
+}
+
+.programlar div img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+#ft-div-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#ft-div-2{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 3rem;
+}
+
+#ft-div-3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 2.5rem;
+}
+
+#ft-div-3 a {
+
+    display: flex;
+
+}
+
+#ft-div-3 img {
+
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+#ft-div-4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+div i{
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+#ft-div-5{
+    display: flex;
+    justify-content:space-between;
+    color: #ffcb04;
+    background-color: #111;
+    font-family: sans-serif;
+    height: 4rem;
+    margin-bottom: 3rem;
+}
+
+b{
+    display: flex;
+    align-items: center;
+    background-color: #111;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+#ft-div-5 a {
+
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.siyah{
+    width: 17%;
+    background-color: black;
+}
+
+
+/* MEDİA QUERY BAŞLANGIÇ */
+
+@media screen and ( max-width: 1140px ) {
+
+    .programlar div {
+
+        width: 27%;
+
+    }
+    
+    .alt-menu {
+
+        position: unset;
+
+    }
+    
+    ul{
+
+        display: block;
+
+    }
+
+    li{
+
+        margin: 1rem;
+
+    }
+
+    .abonelik{
+
+
+        height: auto;
+
+    }
+
+}
+
+
+@media screen and ( max-width: 960px ) {
+
+
+    
+
+    .programlar div {
+
+        width: 42%;
+
+    }
+
+
+    li{
+
+        width: 100%;
+        margin: 1rem;
+        margin-left: 0;
+        padding: 0 1rem;
+
+    }
+
+    input, button {
+        width: 100%;
+        margin: 0;
+    }
+
+    .abonelik{
+
+        display: block;
+        height: auto;
+
+    }
+    
+}
+
+
+@media screen and ( max-width: 720px ) {
+
+    .container{
+    
+       
+        
+        height: auto;
+        
+    }
+
+
+    .kapsayici-menu{
+
+        display: block;
+
+    }
+
+    .menu {
+
+        text-align: center;
+
+    }
+
+    .menu-sag{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+
+    }
+
+    .menu-sag a:nth-child(1) {
+
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+        margin: 0.5rem;
+        
+
+    }
+
+
+    .menu-sag a:nth-child(2) {
+
+        width: 50%;
+        margin: 0.5rem;
+        text-align: center;
+        
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+    
+    .programlar {
+
+        width: 100%;
+        margin:auto;
+
+    }
+
+
+    .programlar div {
+
+        width: 43%;
+
+    }
+
+
+    .back-image {
+
+        width: 100%;
+
+    }
+
+
+    #ft-div-3 {
+
+        flex-direction: column;
+        height: auto;
+        width: 31%;
+        margin: auto auto 2rem;
+
+    }
+
+    #ft-div-3 a {
+
+        flex-direction: column;
+
+    }
+
+    #ft-div-3 img {
+
+        margin: 0 0 1.5rem;
+
+    }
+
+
+    #ft-div-5 {
+
+        justify-content: center;
+        margin: 1rem;
+
+    }
+
+
+    .siyah {
+
+        display: none;
+
+    }
+
+}
+
+
+@media screen and ( max-width: 460px ) {
+    
+    .programlar div {
+
+        width: 40%;
+        margin: 1rem;
+
+    }
+
+}
+
+/* MEDİA QUERY BİTİŞ */

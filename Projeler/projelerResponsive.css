@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    
+    .exxen-screen {
+
+        flex-direction: column;
+
+    }
+
+    .exxen-screen img {
+
+        width: 100%;
+
+    }
+
+    .exxen-screen img:nth-child(3) {
+
+        width: 40%;
+
+    }
+
+}

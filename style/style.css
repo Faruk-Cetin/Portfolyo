@@ -1,0 +1,162 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../görsel/web-code.jpg');
+    background-color:  #6f6f66;
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: exclusion;
+}
+
+nav {
+
+    color: rgb(255, 255, 255);
+    background: #29292e;
+    position: sticky;
+    top: 0;
+
+}
+
+.nav-div {
+
+    display: flex;
+
+}
+
+.nav-div a {
+
+    height: 70px;
+    
+}
+
+.nav-div a img {
+
+    height: inherit;
+    margin-left: 15%;
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none ;
+    margin: auto;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.nav-div li a {
+
+    position: relative;
+
+} 
+
+.nav-div li:hover {
+     
+    
+    color: gold;
+    
+}
+
+.nav-div li a::after {
+
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    height: 2px;
+    background-color: gold;
+    width: 0;
+    left: 0;
+    transition: all 0.5s;
+
+}
+
+.nav-div li a:hover::after {
+
+    width: 100%;
+
+}
+
+.banner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+
+}
+
+.banner img:nth-child(1) {
+
+    display: none;
+
+}
+
+.banner img {
+
+    width: 15%;
+    border: 1px solid transparent;
+    border-radius: 25%;
+
+}
+
+.name {
+
+    margin-left: 5%;
+
+}
+
+.name h1 {
+
+    color: #ffcc00;
+    font-family: math;
+
+}
+
+.name p {
+
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.about {
+
+    display: none;
+
+}
+
+.study {
+
+    display: none;
+
+}
+
+.channel {
+
+    display: none;
+
+}
+
+#Logo {
+
+    display: none;
+
+}

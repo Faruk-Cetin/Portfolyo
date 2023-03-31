@@ -1,0 +1,26 @@
+@media screen and (max-width: 780px) {
+    
+    .contact {
+
+        flex-direction: column;
+
+    }
+
+    .socialmedia {
+
+        justify-content: center;
+        margin-top: 11%;
+
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    
+    .socialmedia a {
+
+        font-size: larger;
+
+    }
+
+}

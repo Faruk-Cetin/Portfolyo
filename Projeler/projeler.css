@@ -1,0 +1,149 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    background-color: #6f6f66;
+    background-image: url('./projeler-görsel/dual-screen.png');
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: exclusion;
+
+}
+
+nav {
+
+    color: rgb(255, 255, 255);
+    background: #29292e;
+    position: sticky;
+    top: 0;
+
+}
+
+.nav-div {
+
+    display: flex;
+
+}
+
+.nav-div a img {
+
+    margin-left: 15%;
+
+}
+
+.nav-div a {
+
+    height: 70px;
+    
+}
+
+.nav-div a img {
+
+    height: inherit;
+    margin-left: 15%;
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none ;
+    margin: auto;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.nav-div li a {
+
+    position: relative;
+
+} 
+
+.nav-div li:hover {
+     
+    
+    color: gold;
+    
+}
+
+.nav-div li a::after {
+
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    height: 2px;
+    background-color: gold;
+    width: 0;
+    left: 0;
+    transition: all 0.5s;
+
+}
+
+.nav-div li a:hover::after {
+
+    width: 100%;
+
+}
+
+.exxen-project {
+
+    color: white;
+    text-align: center;
+
+}
+
+.exxen-project h1 {
+
+    color: #ffcb04;
+    margin-top: 2%;
+    font-size: xxx-large;
+    font-family: fantasy;
+    letter-spacing: 5px;
+
+}
+
+.exxen-project p {
+
+    font-size: larger;
+
+}
+
+.exxen-screen {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+.exxen-screen img {
+
+    width: 33%;
+    padding: 1rem;
+
+}
+
+.exxen-screen img:nth-child(3) {
+
+    width: 10%;
+
+}

@@ -1,0 +1,200 @@
+* {
+
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: black;
+
+}
+
+nav {
+
+    color: rgb(255, 255, 255);
+    background: #29292e;
+    position: sticky;
+    top: 0;
+
+}
+
+.nav-div {
+
+    display: flex;
+
+}
+
+.nav-div a {
+
+    height: 70px;
+    
+}
+
+.nav-div a img {
+
+    height: inherit;
+    margin-left: 15%;
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none ;
+    margin: auto;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.nav-div li a {
+
+    position: relative;
+
+} 
+
+.nav-div li:hover {
+     
+    
+    color: gold;
+    
+}
+
+.nav-div li a::after {
+
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    height: 2px;
+    background-color: gold;
+    width: 0;
+    left: 0;
+    transition: all 0.5s;
+
+}
+
+.nav-div li a:hover::after {
+
+    width: 100%;
+
+}
+
+.contact {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.channels {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+
+}
+
+.post {
+
+    display: flex;
+    color: antiquewhite;
+    justify-content: center;
+    padding: 3%;
+    background-color: #433d3d;
+    border-radius: 10%;
+
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text-box {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+
+    text-align: center;
+    font-family:sans-serif;
+    padding: 8px;
+    font-weight: bolder;
+    color: black;
+    margin: 0px 10px 10px 10px;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+
+textarea {
+
+    font-family: sans-serif;
+    padding: 8px;
+    font-weight: bolder;
+    color: black;
+    margin: 0px 10px 10px 10px;
+    width: 300px;
+    resize: none;
+    border-radius: 10px;
+
+}
+
+button {
+
+    cursor: pointer;
+    margin: auto;
+    padding: 3%;
+    border-radius: 15px;
+    background: #54548b;
+    color: white;
+    border: none;
+
+}
+
+.socialmedia {
+
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+
+}
+
+.socialmedia li {
+
+    list-style-type: none;
+
+}
+
+.socialmedia a {
+
+    font-size: xx-large;
+
+}
+
+.socialmedia i {
+
+    margin-bottom: 15%;
+    margin-right: 15px;
+
+}

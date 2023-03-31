@@ -1,0 +1,28 @@
+@media screen and (max-width:768px) {
+    
+    .timeline::after {
+        left: 31px;
+    }
+        
+    
+    .data {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+        
+    .data::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+      
+    .left::after, .right::after {
+        left: 15px;
+    }
+        
+    .right {
+        left: 0%;
+    }
+}
